@@ -28,3 +28,15 @@ placeOrderButton.addEventListener('click', function() {
     orderSummary.textContent = `You ordered ${quantity} of ${selectedProduct}. Total price: $${totalPrice}`;
 });
 //Task 3
+function calculateTotalPrice() {
+    const totalPrice2 = productPrice+quantity+totalPrice;
+    return totalPrice2;
+}
+//Task 4
+function orderPlaced() {
+    const order = +quantity+totalPrice;
+    return order;
+}
+if (order>totalPrice) {
+    return order;
+}
